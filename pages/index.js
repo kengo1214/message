@@ -51,6 +51,7 @@ export default function Home() {
             <div className={styles.buttonArea}>
               <input className={styles.button} type="submit" value="送信" />
               <input className={styles.button} type="reset" value="リセット" />
+              <p>＊送信後に別画面に遷移しますが、スワイプすると元に戻ります</p>
             </div>
           </form>
         </div>
