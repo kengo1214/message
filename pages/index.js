@@ -22,6 +22,12 @@ export default function Home() {
               name="accessKey"
               value="7adf81ec-942f-4a70-b8d5-e01074e1b7d4"
             />
+            <input
+              type="hidden"
+              name="redirectTo"
+              value="https://message-peach-kappa.vercel.app/"
+            />
+
             {/* <textarea name="message"></textarea> */}
 
             <div className={styles.contactItem}>
